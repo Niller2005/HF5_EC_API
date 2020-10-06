@@ -1,0 +1,32 @@
+{
+  "name": "HF5_EC_API",
+  "version": "1.0.0",
+  "description": "HF5_EC_API",
+  "main": "index.js",
+  "scripts": {
+    "build-ts": "tsc",
+    "serve": "node dist/app.js",
+    "start": "npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niller2005/HF5_EC_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niller2005/HF5_EC_API/issues"
+  },
+  "homepage": "https://github.com/Niller2005/HF5_EC_API#readme",
+  "dependencies": {
+    "@feathersjs/express": "^4.5.8",
+    "@feathersjs/feathers": "^4.5.8",
+    "@feathersjs/socketio": "^4.5.8",
+    "@types/uuid": "^8.3.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}

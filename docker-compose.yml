@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  hf5ecapi:
+    image: hf5ecapi
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3030:3030
